@@ -1,7 +1,7 @@
 {
     "name": "learnstorybook-design-system",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "dependencies": {
         "polished": "^3.4.2",
         "prop-types": "^15.7.2",
@@ -36,6 +36,7 @@
         ]
     },
     "devDependencies": {
+        "@babel/cli": "^7.7.4",
         "@storybook/addon-a11y": "^5.2.6",
         "@storybook/addon-actions": "^5.2.6",
         "@storybook/addon-docs": "^5.2.6",
@@ -44,7 +45,13 @@
         "@storybook/addon-storysource": "^5.2.6",
         "@storybook/addons": "^5.2.6",
         "@storybook/react": "^5.2.6",
+        "auto": "^7.16.3",
         "prettier": "^1.19.1",
         "storybook-chromatic": "^3.4.0"
-    }
+    },
+    "description": "Lorem Ipsum dolor",
+    "main": "dist/index.js",
+    "repository": "https://github.com/mattAAA/learnstorybook-designsystem.git",
+    "author": "Matt Shaver",
+    "license": "MIT"
 }
