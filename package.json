@@ -1,6 +1,6 @@
 {
     "name": "learnstorybook-design-system-mattaaa",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Learn Storybook Design System.",
     "author": "Matt Shaver",
     "main": "dist/index.js",
