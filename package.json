@@ -1,7 +1,11 @@
 {
-    "name": "learnstorybook-design-system",
+    "name": "learnstorybook-design-system-mattaaa",
     "version": "0.1.0",
-    "private": false,
+    "description": "Learn Storybook Design System.",
+    "author": "Matt Shaver",
+    "main": "dist/index.js",
+    "repository": "https://github.com/mattAAA/learnstorybook-designsystem.git",
+    "license": "MIT",
     "dependencies": {
         "polished": "^3.4.2",
         "prop-types": "^15.7.2",
@@ -11,6 +15,7 @@
         "styled-components": "^4.4.1"
     },
     "scripts": {
+        "buildDist": "BABEL_ENV=production babel src -d dist",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
@@ -18,7 +23,13 @@
         "storybook": "start-storybook -p 9009 -s public",
         "build-storybook": "build-storybook -s public",
         "build-storybook-docs": "build-storybook -s public --docs",
-        "chromatic": "CHROMATIC_APP_CODE=2oiwry5h27v chromatic"
+        "chromatic": "CHROMATIC_APP_CODE=2oiwry5h27v chromatic",
+        "release": "auto shipit"
+    },
+    "babel": {
+        "presets": [
+            "react-app"
+        ]
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -36,7 +47,6 @@
         ]
     },
     "devDependencies": {
-        "@babel/cli": "^7.7.4",
         "@storybook/addon-a11y": "^5.2.6",
         "@storybook/addon-actions": "^5.2.6",
         "@storybook/addon-docs": "^5.2.6",
@@ -45,13 +55,7 @@
         "@storybook/addon-storysource": "^5.2.6",
         "@storybook/addons": "^5.2.6",
         "@storybook/react": "^5.2.6",
-        "auto": "^7.16.3",
         "prettier": "^1.19.1",
         "storybook-chromatic": "^3.4.0"
-    },
-    "description": "Lorem Ipsum dolor",
-    "main": "dist/index.js",
-    "repository": "https://github.com/mattAAA/learnstorybook-designsystem.git",
-    "author": "Matt Shaver",
-    "license": "MIT"
+    }
 }
