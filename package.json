@@ -15,9 +15,8 @@
         "styled-components": "^4.4.1"
     },
     "scripts": {
-        "build": "BABEL_ENV=production babel src -d dist",
-        "start": "react-scripts start",
         "build": "react-scripts build",
+        "start": "react-scripts start",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "storybook": "start-storybook -p 9009 -s public",
@@ -56,6 +55,7 @@
         "@storybook/addon-storysource": "^5.2.6",
         "@storybook/addons": "^5.2.6",
         "@storybook/react": "^5.2.6",
+        "auto": "^7.16.3",
         "prettier": "^1.19.1",
         "storybook-chromatic": "^3.4.0"
     }
